@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Manila Gas</title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <!-- Header and Nav -->
+<div class="fixed">
+  <nav class="top-bar">
+    <ul>
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="subapps_manilagas1.html">
+            <img src="img/back_arrow.png">
+            Manila Gas Prices
+          </a>
+        </h1>
+      </li>
+      <!-- <li class="toggle-topbar"><a href="#"></a></li> -->
+    </ul>
+
+    <section>
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider"></li>
+        <li><a href="subapps_getsave22.html" id="add_price">Add Price</a></li>
+      </ul>
+    </section>
+  </nav>
+</div>
+
+  <!-- End Header and Nav -->
+
+  <!-- Main Grid Section -->
+
+  <section id="content" class="prices">
+  
+  <!-- remove map content if there is no location
+  <div id="map">
+  </div>
+  --> 
+
+  <div class="selected-price">
+    <a href="#" class="price-item">
+      <div class="row pricelist-item">
+        <div class="one mobile-one columns">
+          <img src="img/sample_shell.png">
+        </div>
+        <div class="eight mobile-three columns">
+          <h2>Shell Diesel 1L</h2>
+          <div class="address">
+          </div>
+          <div class="item-meta">
+            Updated on <timestamp class="impt">October 2, 2012 5:00 am</timestamp>
+            by <span class="username">Username</span>
+          </div><!-- item meta -->
+        </div><!-- three cols -->
+        <div class="three mobile-two columns price">
+          <p><span class="price-list">P 43.95</span></p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <h3 class="divider-header">Other Prices</h3>
+
+  <div class="listed-prices">
+
+    <a href="#" class="price-item">
+      <div class="row pricelist-item">
+        <div class="one mobile-one columns">
+          <img src="img/sample_shell.png">
+        </div>
+        <div class="eight mobile-three columns">
+          <h2>Shell Pasig Diesel 1L </h2>
+          <div class="address">
+            Address line 1 blah blah 
+            Pasig, Metro Manila
+          </div>
+          <div class="item-meta">
+            Updated on <timestamp class="impt">October 2, 2012 5:00 am</timestamp>
+            by <span class="username">Username</span>
+          </div><!-- item meta -->
+        </div><!-- three cols -->
+        <div class="three mobile-two columns price">
+          <p><span class="price-list">P 44.00</span></p>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="price-item">
+      <div class="row pricelist-item">
+        <div class="one mobile-one columns">
+          <img src="img/sample_shell.png">
+        </div>
+        <div class="eight mobile-three columns">
+          <h2>Garcia's Shell Service Station Diesel 1L</h2>
+          <div class="address">
+            Address line 1 blah blah 
+            Ortigas, Pasig City
+          </div>
+          <div class="item-meta">
+            Updated on <timestamp class="impt">October 2, 2012 5:00 am</timestamp>
+            by <span class="username">Username</span>
+          </div><!-- item meta -->
+        </div><!-- three cols -->
+        <div class="three mobile-two columns price">
+          <p><span class="price-list">P 42.25</span></p>
+        </div>
+      </div>
+    </a>
+
+  </div>
+  </div>
+
+  </section>
+
+  <!-- End Grid Section -->
+
+
+
+  <!-- Footer -->
+
+  <footer class="row" id="share">
+    <div class="mobile-three columns">
+      <a href="#">Share on Twitter</a>
+    </div>
+    <div class="mobile-three columns">
+      <a href="#">Share on Facebook</a>
+    </div>
+  </footer>
+
+
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="js/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="js/app.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

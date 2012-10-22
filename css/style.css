@@ -229,6 +229,8 @@ span.arrow {
 
 /* listed prices */
 
+#content.prices { margin-top: 48px; }
+
 .listed-prices {
     background: #ededed;
 }
@@ -263,6 +265,8 @@ span.arrow {
     display: block;
 }
     #share a { color: #333; }
+
+
 
 
 /* getSave22 */
