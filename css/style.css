@@ -166,7 +166,7 @@ body {
 #content.feed {
     position: relative;
     margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 48px; /* fix for bug */
 }
 
 h2 {
